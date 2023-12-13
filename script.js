@@ -8,7 +8,7 @@ const reload = this.document.getElementById("reload");
 
 
 function fetch_data() {
-    fetch("http://localhost:5500/get")
+    fetch("http://osu-api.kro.kr:5500/get")
         .then((response) => response.json())
         .then((data) => {
             if(logQ.checked) {
